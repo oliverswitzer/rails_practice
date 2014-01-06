@@ -1,0 +1,38 @@
+<%= form_for(@tweet) do |f| %>
+
+<div class="field">
+	<%= f.label :body %>
+	<%= f.text_field :body %> 
+
+</div>
+<br/>
+
+<div class="actions">
+	<%= f.submit %>
+</div>
+<%end %>
+
+
+
+
+
+
+
+
+<!-- <h1>Tweet Form</h1>
+<form action="/tweet" method="POST">
+
+  <label for="POST-username">Username:</label>
+  <input id="POST-username" type="text" name="username">
+
+  <label for="POST-password">Password:</label>
+  <input id="POST-password" type="password" name="password">
+
+  <br/>
+
+  <label for="POST-tweet">Tweet:</label>
+  <input id="POST-tweet" type="text" name="tweet">
+
+  <button type="submit" value="Sign Me Up!">Tweet</button>
+</form>
+ -->
